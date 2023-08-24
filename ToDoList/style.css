@@ -1,0 +1,279 @@
+/* Setze einen allgemeinen Nullwert für Margin, Padding und den Box-Sizing-Modell */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hintergrundfarbe für den gesamten Body festlegen */
+body {
+  background-color: weiß;
+  font-family: "Poppins", sans-serif; /* Schriftart für den gesamten Text auf der Seite */
+}
+
+/* Margin für den Header festlegen */
+header {
+  margin: 20px;
+}
+
+/* Padding für die Spalte mit der Klasse "overview" auf 0 setzen */
+.col.overview {
+  padding: 0;
+}
+
+/* Ändere die Schriftgröße und die Höhe eines span-Elements beim Überfahren mit der Maus */
+span:hover {
+  font-size: 3,5rem;
+  height: 80px;
+}
+
+/* Maximalbreite und Höhe für das Logo in der Spalte mit der Klasse "col.logo" festlegen */
+.col.logo {
+  max-width: 65px;
+  height: 50px;
+}
+
+/* Ändere die Höhe des Logos beim Überfahren mit der Maus */
+.col.logo:hover {
+  height: 80px;
+}
+
+/* Padding für die Spalte mit der Klasse "col.menue" auf 0 setzen und den Text rechts ausrichten */
+.col.menue {
+  padding: 0;
+  text-align: right;
+}
+
+/* Margin für den Hauptinhalt der Seite festlegen */
+main {
+  margin: 20px;
+}
+
+/* Hintergrundfarbe, Randradius und Padding für den Container mit der Klasse "entry_content" festlegen */
+.container.entry_content {
+  background-color: #dde3e7;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Stile für den Eingabecontainer festlegen */
+.input_container {
+  border-radius: 5px;
+  background-color: #f05d5e;
+  padding: 15px;
+}
+
+/* Stile für das Formular festlegen, um die Elemente zentriert darzustellen */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Margin oben für das "Add"-Button-Element und die Buttons im kleinen Format festlegen */
+#add_Button,
+.btn.btn-primary.btn-sm {
+  margin-top: 5px;
+}
+
+/* Stile für den Eintrags-Header festlegen */
+.entry_header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 0 10px 0;
+}
+
+/* Stile für den Container mit der Klasse "plus" und den zweiten Eintrags-Header festlegen */
+.entry_header2,
+.container.plus {
+  color: #d8a47f;
+  background-color: #0f7173;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 10px 0;
+  margin-top: 20px;
+  height: 100px;
+}
+
+/* Stile für den dritten Eintrags-Header festlegen */
+.entry_header3 {
+  color: #d8a47f;
+  background-color: #272932;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 10px 0;
+  margin-top: 20px;
+  height: 100px;
+}
+
+/* Stile für den vierten Eintrags-Header festlegen */
+.entry_header4 {
+  color: #313440;
+  background-color: #f05d5e;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 10px 0;
+  margin-top: 20px;
+  height: 100px;
+}
+
+/* Stile für die Überschrift im Eintrags-Header festlegen */
+.entry_topic h3 {
+  font-size: 1.2rem;
+  color: #272932;
+  margin: 0;
+}
+
+/* Stile für die Überschrift in den Eintrags-Headern 2, 3 und 4 festlegen */
+.entry_topic2 h3,
+.entry_topic3 h3,
+.entry_topic4 h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ced5d9;
+  margin: 0;
+}
+
+/* Margin für das Element mit der ID "entry_date" festlegen */
+#entry_date {
+  margin: 0;
+}
+
+/* Padding für den Bereich mit der Klasse "list_content" festlegen */
+.row.list_content {
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+/* Stile für ungeordnete Listen festlegen */
+.unordered_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Stile für die Checkboxen im Formular festlegen */
+.form-check-input[type="checkbox"] {
+  /* border: solid red 1px; */
+  border-radius: 50%;
+  padding: 8px;
+}
+
+/* Stile für das Element mit der ID "bloeder" festlegen */
+#bloeder {
+  /* border: solid red 1px; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Margin links für das Element mit der Klasse "todo_text_area" festlegen */
+.todo_text_area {
+  margin-left: 6px;
+}
+
+/* Stile für den Bereich mit der Klasse "btn-are" festlegen */
+.btn-are {
+  /* border: solid 1px red; */
+  display: flex;
+  justify-content: right;
+}
+
+/* Stile für die Einträge festlegen */
+.item {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d8a47f;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+
+/* Stile für Einträge beim Überfahren mit der Maus festlegen */
+.item:hover {
+  padding: 7px 15px;
+  background-color: #ca7e49;
+  box-shadow: schwarz;
+}
+
+/* Stile für die Überschriften in den Einträgen festlegen */
+.item h4 {
+  border: 1px solid grün;
+  color: weiß;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Stile für das Textarea-Element festlegen */
+#textarea {
+  border: 10px solid grün;
+  background: transparent;
+  color: #fff;
+  border: 0;
+  font-size: 1rem;
+  resize: none;
+}
+
+/* Stile für den Text im Textarea-Bereich festlegen */
+.todo_text_area p {
+  color: #272932a1;
+  text-align: center;
+  font-size: 0.6rem;
+  margin-bottom: 6px;
+}
+
+/* Stile für die Zeile zum Teilen festlegen */
+.share_row {
+  display: flex;
+  justify-content: center;
+}
+
+/* Padding für den Container mit der Klasse "new" festlegen */
+.container.new {
+  padding: 0;
+}
+
+/* Stile für den Footer festlegen */
+footer {
+  text-align: center;
+  color: #5454548d;
+  font-size: 1rem;
+}
+
+/* Stile für ein spezielles Symbol-Font festlegen */
+.material-symbols-outlined {
+  /* border: solid 1px green; */
+  font-family: "Material Symbols Outlined";
+  font-weight: 700;
+  color: #f05d5e;
+  font-size: 45px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+/* Stile für ein spezielles Symbol-Icon festlegen */
+.plus_icon {
+  margin-top: 2rem;
+  text-align: center;
+  background-color: #17999b00;
+  border: none;
+}
